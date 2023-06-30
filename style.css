@@ -3,7 +3,7 @@
 :root {
   --white: hsl(0, 0%, 100%);
   --black: hsl(100, 0%, 0%);
-  --purple: #6b69e8;
+  --purple: #6765fb;
 
   --ff-alegreya: "Alegreya", serif;
   --ff-montserrat: "Montserrat", sans-serif;
@@ -125,7 +125,7 @@ body {
 }
 
 .unactive {
-  transform: translateX(50rem);
+  transform: translateX(0.5rem);
+  opacity: 0;
   transition: 0.2s ease-in-out;
-  overflow: hidden;
 }
